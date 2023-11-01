@@ -1,0 +1,12 @@
+version: '3'
+services:
+  e2e:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./cypress:/e2e/cypress
+      - /e2e/node_modules
+    environment:
+      - CYPRESS_BASE_URL=https://gruppi-go.it
+

@@ -1,0 +1,22 @@
+# Node
+node_modules
+npm-debug.log
+
+# TypeScript
+dist/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Environment
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
